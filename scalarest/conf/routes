@@ -11,6 +11,6 @@ GET     /assets/*file               controllers.Assets.versioned(path="/public",
 
 
 #REST ENDPOINTS
-GET		/name				 controllers.HomeController.getName
-POST  /savePlace   controllers.HomeController.savePlace
-POST  /saveTest    controllers.Application.saveTest
+GET		  /name				 controllers.HomeController.getName
+POST    /savePlace   controllers.HomeController.savePlace
+POST    /saveTest    controllers.Application.saveTest
